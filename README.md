@@ -26,6 +26,7 @@ All of these files may be safely deleted and recreated except for the .list file
 1. Capstone_Data_Preparation_(Final).npy.  This notebook prepares the waveforms and spectrograms described above.  It's not necessary to run this notebook if nothing has been deleted from the downloaded data files.
 2. Capstone_Traditional_(Final).npy.  Contains the traditional machine learning analyses.
 3. Capstone_DEC_(Final).npy.  Contains the deep learning analyses.
+
 *The traditional machine learning and deep learning notebooks are standalone and may be run in any order, assuming all data is present.*
 
 Minimal setup should be required to run the notebooks in your environment.  First, point the ROOT_PATH variable found in each notebook to the data folder downloaded from Google Drive.  Second, unless you plan to upload the notebooks to Google Colab, remove the drive mounting cell.  Everything else should work out of the box.  All notebooks were developed using the Google Colab Pro environment, so a GPU us recommended.  Note that even with a GPU, the MNIST section of the DEC notebook can take about an hour to run on its own.
