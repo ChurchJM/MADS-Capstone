@@ -20,7 +20,7 @@ The data set available on Google Drive contains the following files and subfolde
   * Numpy files containing downloaded waveforms, event onset times (Unix timestamps), and STFT spectrograms computed from waveforms.  If missing or deleted, these files are created by the data preparation notebook using the contents of the .tar.gz archives.
   * Numpy files containing some intermediate results from the DEC notebook.
 
-All of these files may be safely deleted and recreated except for the .list files and .tar.gz archives, which are the "starting point" of the project.  
+*All of these files may be safely deleted and recreated except for the .list files and .tar.gz archives, which are the "starting point" of the project.*
 
 ### Jupyter Notebooks
 1. Capstone_Data_Preparation_(Final).npy.  This notebook prepares the waveforms and spectrograms described above.  It's not necessary to run this notebook if nothing has been deleted from the downloaded data files.
