@@ -23,9 +23,9 @@ The data set available on Google Drive contains the following files and subfolde
 *All of these files may be safely deleted and recreated except for the .list files and .tar.gz archives, which are the "starting point" of the project.*
 
 ### Jupyter Notebooks
-1. Capstone_Data_Preparation_(Final).ipynb.  This notebook prepares the waveforms and spectrograms described above.  It's not necessary to run this notebook if nothing has been deleted from the downloaded data files.
-2. Capstone_Traditional_(Final).ipynb.  Contains the traditional machine learning analyses.
-3. Capstone_DEC_(Final).ipynb.  Contains the deep learning analyses.
+1. `Capstone_Data_Preparation_(Final).ipynb`.  This notebook prepares the waveforms and spectrograms described above.  It's not necessary to run this notebook if nothing has been deleted from the downloaded data files.
+2. `Capstone_Traditional_(Final).ipynb`.  Contains the traditional machine learning analyses.
+3. `Capstone_DEC_(Final).ipynb`.  Contains the deep learning analyses.
 
 *The traditional machine learning and deep learning notebooks are standalone and may be run in any order, assuming all data is present.*
 
